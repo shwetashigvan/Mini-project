@@ -1,0 +1,116 @@
+/* small reset  */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial;
+}
+
+/* top bar */
+.top_header_box{
+    padding: 14px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #cfcfcf;
+    background:#fff;
+}
+
+.mylogoTxt{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.menu_items{
+    list-style:none;
+    display:flex;
+    gap:18px;
+}
+
+.menu_items a{
+    text-decoration:none;
+    color:#414141;
+    font-size:15px;
+}
+
+
+/* hero block */
+.hero_block{
+    height: 60vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(50deg,#6d5bf8,#4978ff);
+    color:#fff;
+    text-align:center;
+}
+
+.hero_inner{
+    width:80%;
+    max-width:550px;
+}
+
+.heroPara{
+    line-height:1.5;
+    margin-bottom:15px;
+}
+
+.btnStart{
+    padding:10px 25px;
+    border:none;
+    background:#fff;
+    cursor:pointer;
+    color:#5050d8;
+    border-radius:4px;
+}
+
+
+/* about section */
+.abt_section{
+    padding:40px 25px;
+    text-align:center;
+}
+
+.abt_txt{
+    margin-top:10px;
+    max-width:600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/* service section */
+.srv_main{
+    padding:40px 25px;
+    text-align:center;
+}
+
+.srv_row{
+    margin-top:20px;
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.srv_box{
+    width:250px;
+    background:#fff;
+    padding:18px;
+    border-radius:5px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.18);
+}
+
+.srv_box h3{
+    margin-bottom:8px;
+}
+
+
+/* footer */
+.ft_box{
+    background:#222;
+    color:#fff;
+    padding:14px;
+    text-align:center;
+    margin-top:35px;
+}
